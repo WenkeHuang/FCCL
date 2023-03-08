@@ -80,7 +80,6 @@ class ResNet(nn.Module):
         self.layer2 = self._make_layer(block, 128, num_blocks[1], stride=2)
         self.layer3 = self._make_layer(block, 256, num_blocks[2], stride=2)
         self.layer4 = self._make_layer(block, 512, num_blocks[3], stride=2)
-         # 上面几层即是特征提取器，输出的维度即为512*block.expansion
         self.linear = nn.Linear(512*block.expansion, num_classes)
 
     def _make_layer(self, block, planes, num_blocks, stride):
@@ -110,12 +109,12 @@ def ResNet12(num_classes=10):
     return ResNet(BasicBlock, [2, 1, 1, 1],num_classes)
 
 
-def ResNet18(num_classes=10):
-    return ResNet(BasicBlock, [2, 2, 2, 2],num_classes)
+def ResNet18():
+    return ResNet(BasicBlock, [2, 2, 2, 2])
 
 
-def ResNet34(num_classes=10):
-    return ResNet(BasicBlock, [3, 4, 6, 3],num_classes)
+def ResNet34():
+    return ResNet(BasicBlock, [3, 4, 6, 3])
 
 
 def ResNet50():
@@ -131,16 +130,10 @@ def ResNet152():
 
 
 if __name__ =='__main__':
-    import copy
+    net = ResNet10()
+    y = net(torch.randn(1, 3, 32, 32))
+    print(y.size())
+
     net = ResNet12()
-    y = torch.randn(1, 3, 32, 32)
-    out= net(y)
-    net1 = copy.deepcopy(net)
-    net1.linear = nn.Linear(512,512)
-    torch.nn.init.eye_(net1.linear.weight)
-    torch.nn.init.zeros_(net1.linear.bias)
-    for param in net1.parameters():
-        param.requires_grad = False
-    fea1 = net1(y)
-    print(fea1)
-    
+    y = net(torch.randn(1, 3, 32, 32))
+    print(y.size())

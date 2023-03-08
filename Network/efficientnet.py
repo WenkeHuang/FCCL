@@ -141,7 +141,6 @@ class EfficientNet(nn.Module):
         dropout_rate = self.cfg['dropout_rate']
         if self.training and dropout_rate > 0:
             out = F.dropout(out, p=dropout_rate)
-        
         out = self.linear(out)
         return out
 

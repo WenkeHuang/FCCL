@@ -1,10 +1,5 @@
 # Learn from others and Be yourself in Heterogeneous Federated Learning
 
-Venue： CVPR 2022
-
-Paper: 
-# Learn from others and Be yourself in Heterogeneous Federated Learning
-
 > Rethinking Federated Learning with Domain Shift: A Prototype View,            
 > Wenke Huang, Mang Ye, Bo Du
 > *CVPR, 2022*

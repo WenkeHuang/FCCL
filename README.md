@@ -20,4 +20,4 @@ Federated learning has emerged as an important dis- tributed learning paradigm, 
 
 ## Relevant Projects
 [1] Rethinking Federated Learning with Domain Shift: A Prototype View
- - CVPR 2023 [Code](https://github.com/WenkeHuang/RethinkFL)]
+ - CVPR 2023 [Code](https://github.com/WenkeHuang/RethinkFL)

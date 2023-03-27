@@ -1,7 +1,7 @@
-from Network.resnet import  ResNet10,ResNet12
-from Network.efficientnet import  EfficientNetB0
-from Network.mobilnet_v2 import MobileNetV2
-from Network.shufflenet import ShuffleNetG2
+from fccl.Network.resnet import  ResNet10,ResNet12
+from fccl.Network.efficientnet import  EfficientNetB0
+from fccl.Network.mobilnet_v2 import MobileNetV2
+from fccl.Network.shufflenet import ShuffleNetG2
 def init_nets(n_parties,nets_name_list):
     nets_list = {net_i: None for net_i in range(n_parties)}
     for net_i in range(n_parties):

@@ -7,10 +7,9 @@ import os
 import sys
 
 from tqdm import tqdm
-import torchvision.transforms as transforms
-sys.path.append('../../')
-from Idea.params import args_parser
-from PIL import Image
+
+sys.path.append('../../../')
+from fccl.Idea.params import args_parser
 from Idea.third_party import aug
 args = args_parser()
 Scenario = args.Scenario

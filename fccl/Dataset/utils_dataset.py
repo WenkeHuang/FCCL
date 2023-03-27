@@ -1,19 +1,15 @@
 import os
-import sys
 import torch
-import pandas as pd
 import logging
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import torch.nn.functional as F
 from torch.autograd import Variable
 import torchvision.transforms as transforms
 from torchvision import datasets
 import sys
-sys.path.append('../../')
-from Dataset.init_dataset import Cifar10FL,Cifar100FL,FashionMNISTData,MNISTData,USPSTData,SVHNData
-from Idea.params import args_parser
+sys.path.append('../../../')
+from fccl.Dataset.init_dataset import Cifar10FL,Cifar100FL,FashionMNISTData,MNISTData,USPSTData,SVHNData
+from fccl.Idea.params import args_parser
 
 args = args_parser()
 Project_Path = args.Project_Dir

@@ -1,12 +1,11 @@
 import sys
-sys.path.append("..")
-from Dataset.utils_dataset import init_logs, get_dataloader
-from Network.utils_network import init_nets
+sys.path.append("../..")
+from fccl.Dataset.utils_dataset import init_logs, get_dataloader
+from fccl.Network.utils_network import init_nets
 import torch.optim as optim
 import matplotlib.pyplot as plt
 from sklearn import manifold
 import torch.nn as nn
-import numpy as np
 from numpy import *
 import torch
 import os

@@ -1,11 +1,11 @@
 import sys
-import os
-sys.path.append('../../')
-sys.path.append('.')
-from Network.utils_network import init_nets
-from Dataset.utils_dataset import init_logs, get_dataloader,generate_public_data_idxs
-from Idea.utils_idea import update_model_via_private_data_with_two_model,evaluate_network,mkdirs
-from Idea.params import args_parser
+
+sys.path.append('../../../')
+sys.path.append('')
+from fccl.Network.utils_network import init_nets
+from fccl.Dataset.utils_dataset import init_logs, get_dataloader,generate_public_data_idxs
+from fccl.Idea.utils_idea import update_model_via_private_data_with_two_model,evaluate_network,mkdirs
+from fccl.Idea.params import args_parser
 from datetime import datetime
 import torch.optim as optim
 import torch.nn as nn
@@ -14,8 +14,6 @@ import numpy as np
 import torch
 import copy
 import os
-import tent
-
 
 args = args_parser()
 

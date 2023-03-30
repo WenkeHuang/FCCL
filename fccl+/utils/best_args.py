@@ -1,5 +1,23 @@
 best_args = {
     'fl_digits': {
+        'fedavg': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, }
+        },
+        'feddf': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'public_lr': 0.001,
+                'local_epoch': 20,
+                'public_epoch': 1,
+                'public_batch_size': 256,
+                'local_batch_size': 128,
+            },
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,
@@ -30,7 +48,24 @@ best_args = {
         },
     },
     'fl_office31': {
-
+        'fedavg': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, }
+        },
+        'feddf': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'public_lr': 0.001,
+                'local_epoch': 20,
+                'public_epoch': 1,
+                'public_batch_size': 256,
+                'local_batch_size': 128,
+            },
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,
@@ -61,6 +96,25 @@ best_args = {
 
     },
     'fl_officecaltech': {
+        'fedavg': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 20,
+                'local_batch_size': 128, }
+        },
+        'feddf': {
+            -1: {
+
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'public_lr': 0.001,
+                'local_epoch': 20,
+                'public_epoch': 1,
+                'public_batch_size': 256,
+                'local_batch_size': 128,
+            },
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,
@@ -91,7 +145,25 @@ best_args = {
 
     },
     'fl_officehome': {
+        'fedavg': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 20,
+                'local_batch_size': 128, }
+        },
+        'feddf': {
+            -1: {
 
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'public_lr': 0.001,
+                'local_epoch': 10,
+                'public_epoch': 1,
+                'public_batch_size': 256,
+                'local_batch_size': 128,
+            },
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,

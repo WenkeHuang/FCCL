@@ -18,6 +18,21 @@ best_args = {
                 'local_batch_size': 128,
             },
         },
+        'moon': {
+            -1: {
+                'con_loss_weight': 1,
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, },
+        },
+        'fedprox': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, }
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,
@@ -65,6 +80,21 @@ best_args = {
                 'public_batch_size': 256,
                 'local_batch_size': 128,
             },
+        },
+        'moon': {
+            -1: {
+                'con_loss_weight': 1,
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, },
+        },
+        'fedprox': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.001,
+                'local_epoch': 20,
+                'local_batch_size': 64, }
         },
         'fccl': {
             -1: {
@@ -115,6 +145,21 @@ best_args = {
                 'local_batch_size': 128,
             },
         },
+        'moon': {
+            -1: {
+                'con_loss_weight': 1,
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 20,
+                'local_batch_size': 128, },
+        },
+        'fedprox': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 20,
+                'local_batch_size': 128, }
+        },
         'fccl': {
             -1: {
                 'communication_epoch': 40,
@@ -163,6 +208,21 @@ best_args = {
                 'public_batch_size': 256,
                 'local_batch_size': 128,
             },
+        },
+        'moon': {
+            -1: {
+                'con_loss_weight': 1,
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 10,
+                'local_batch_size': 128, },
+        },
+        'fedprox': {
+            -1: {
+                'communication_epoch': 40,
+                'local_lr': 0.01,
+                'local_epoch': 10,
+                'local_batch_size': 128, }
         },
         'fccl': {
             -1: {

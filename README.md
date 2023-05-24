@@ -19,4 +19,4 @@ Federated learning has emerged as an important distributed learning paradigm, wh
 ```
 
 ## Relevant Projects
-[1] Rethinking Federated Learning with Domain Shift: A Prototype View - CVPR 2023 [[Code](https://github.com/WenkeHuang/RethinkFL)]
+[1] Rethinking Federated Learning with Domain Shift: A Prototype View - CVPR 2023 [[Link](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Rethinking_Federated_Learning_With_Domain_Shift_A_Prototype_View_CVPR_2023_paper.pdf)] [[Code](https://github.com/WenkeHuang/RethinkFL)]

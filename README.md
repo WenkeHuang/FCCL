@@ -1,6 +1,10 @@
+# Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning
+> Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning          
+> Wenke Huang, Mang Ye, Zekun Shi Bo Du
+> *TPAMI, 2023*
+> 
 # Learn from others and Be yourself in Heterogeneous Federated Learning
-
-> Learn from others and Be yourself in Heterogeneous Federated Learning,            
+> Learn from others and Be yourself in Heterogeneous Federated Learning            
 > Wenke Huang, Mang Ye, Bo Du
 > *CVPR, 2022*
 > [Link](https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_Learn_From_Others_and_Be_Yourself_in_Heterogeneous_Federated_Learning_CVPR_2022_paper.pdf)
@@ -16,13 +20,11 @@ Federated learning has emerged as an important distributed learning paradigm, wh
     booktitle={CVPR},
     year={2022}
 }
-@misc{FCCLPlus_arXiv23,
+@artical{FCCLPlus_TPAMI23,
       title={Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning}, 
       author={Wenke Huang and Mang Ye and Zekun Shi and Bo Du},
       year={2023},
-      eprint={2309.16286},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      journal={TPAMI},
 }
 ```
 

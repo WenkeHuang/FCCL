@@ -1,6 +1,6 @@
 # Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning
 > Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning          
-> Wenke Huang, Mang Ye, Zekun Shi Bo Du
+> Wenke Huang, Mang Ye, Zekun Shi, Bo Du
 > *TPAMI, 2023*
 > 
 # Learn from others and Be yourself in Heterogeneous Federated Learning

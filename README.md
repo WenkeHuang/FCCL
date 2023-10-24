@@ -24,10 +24,10 @@ Federated learning has emerged as an important distributed learning paradigm, wh
     year={2022}
 }
 @article{FCCLPlus_TPAMI23,
-      title={Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning}, 
-      author={Wenke Huang and Mang Ye and Zekun Shi and Bo Du},
-      year={2023},
-      journal={TPAMI},
+  title={Generalizable Heterogeneous Federated Cross-Correlation and Instance Similarity Learning}, 
+  author={Wenke Huang and Mang Ye and Zekun Shi and Bo Du},
+  year={2023},
+  journal={TPAMI}
 }
 ```
 
